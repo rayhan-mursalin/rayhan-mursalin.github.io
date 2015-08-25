@@ -214,6 +214,7 @@ header .header-content .header-content-inner p {
     font-size: 20px;
     font-weight: 300;
     color: #E0E9F2;
+    font-style: italic;
 }
 
 @media(min-width:768px) {
@@ -250,7 +251,9 @@ header .header-content .header-content-inner p {
       margin-left:50px;
       border-radius:50px;
     }
-
+  header .header-icon {
+    padding-top: 5em;
+  }
 }
 
 .section-heading {
@@ -274,14 +277,14 @@ header .header-content .header-content-inner p {
 }
 
 .about-text {
-  color: #EFF4F8;
+  color: #E0E0E0;
 }
 
 .skills {
   text-decoration: underline;
   text-align: center;
-  font-size: large;
-  color: #E0E9F2;
+  font-size: x-large;
+  color: black;
 }
 .skills-name {
   font-family: verdana;
@@ -356,6 +359,12 @@ header .header-content .header-content-inner p {
     margin: 0 auto 20px;
 }
 
+.service-button {
+  padding-top: 20em;
+}
+.btn-lg {
+  color: #F05F40;
+}
 .text-primary {
     color: #f05f40;
 }
@@ -368,6 +377,7 @@ header .header-content .header-content-inner p {
 .btn-default {
     color: wte;
     background-color: ;
+    text-align: center;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -475,6 +485,7 @@ fieldset[disabled] .btn-primary.active {
     text-transform: uppercase;
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     font-weight: 700;
+    text-align: center;
 }
 
 
