@@ -211,9 +211,9 @@ header .header-content .header-content-inner hr {
 
 header .header-content .header-content-inner p {
     margin-bottom: 50px;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 300;
-    color: rgba(255,255,255,.7);
+    color: #E0E9F2;
 }
 
 @media(min-width:768px) {
@@ -274,16 +274,19 @@ header .header-content .header-content-inner p {
 }
 
 .about-text {
-  color: #e7e2e2;
-  text-align: center;
+  color: #EFF4F8;
 }
 
 .skills {
   text-decoration: underline;
-  font-weight: 600;
   text-align: center;
-
+  font-size: large;
+  color: #E0E9F2;
 }
+.skills-name {
+  font-family: verdana;
+}
+
 .list-unstyled {
   text-align: center;
 }
@@ -293,7 +296,7 @@ header .header-content .header-content-inner p {
     position: relative;
     margin: 0 auto;
     max-width: 650px;
-    border: 5px solid white;
+    border: 3px solid #C1C1C1;
 }
 
 .portfolio-box .portfolio-box-caption {
@@ -363,9 +366,8 @@ header .header-content .header-content-inner p {
 }
 
 .btn-default {
-    border-color: #fff;
-    color: #222;
-    background-color: #fff;
+    color: wte;
+    background-color: ;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -470,7 +472,6 @@ fieldset[disabled] .btn-primary.active {
 
 .btn {
     border: 0;
-    border-radius: 300px;
     text-transform: uppercase;
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     font-weight: 700;
@@ -501,24 +502,26 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #222;
+
 }
 
-#myfooter{
-height: 4em;
-  background-color: #4A423F;
-  text-align: center;
-  padding-top: 1em;
-  color: white;
-  font-family: monospace;
+#contact {
+  padding-bottom: 0;
 }
-.social{
-  text-align: center;
-  border-color: F05F40;
-  font-family: papyrus;
+.find {
+  padding-bottom: 1em;
+  font-family: cursive;
+}
+.social {
+  padding-top: 5em;
+  padding-bottom: 0;
 }
 .btn-xl {
-    padding: 18px 28px;
-    font-size: 30px;
-    border-radius: 8px;
-    border-color: F05F40;
+  font-size: 35px;
+  border-radius: 60px;
+}
+footer {
+  background-color: #4A423F;
+  color: #C1C1C1;
+  padding: 1em;
 }

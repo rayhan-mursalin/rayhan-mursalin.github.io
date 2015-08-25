@@ -183,11 +183,7 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
-<<<<<<< HEAD
     background-image: url(../img/header1.jpg);
-=======
-    background-image: url(../img/header.jpg);
->>>>>>> 6264a0e0876a4e720431b2fb3c94850e8e28ed32
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -215,9 +211,9 @@ header .header-content .header-content-inner hr {
 
 header .header-content .header-content-inner p {
     margin-bottom: 50px;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 300;
-    color: rgba(255,255,255,.7);
+    color: #E0E9F2;
 }
 
 @media(min-width:768px) {
@@ -246,7 +242,6 @@ header .header-content .header-content-inner p {
         max-width: 80%;
         font-size: 18px;
     }
-<<<<<<< HEAD
 
     header .header-icon a {
       text-align: center;
@@ -255,8 +250,7 @@ header .header-content .header-content-inner p {
       margin-left:50px;
       border-radius:50px;
     }
-=======
->>>>>>> 6264a0e0876a4e720431b2fb3c94850e8e28ed32
+
 }
 
 .section-heading {
@@ -279,35 +273,30 @@ header .header-content .header-content-inner p {
     margin-bottom: 5;
 }
 
-<<<<<<< HEAD
 .about-text {
-  color: #e7e2e2;
-  text-align: center;
+  color: #EFF4F8;
 }
 
 .skills {
   text-decoration: underline;
-  font-weight: 600;
   text-align: center;
-
+  font-size: large;
+  color: #E0E9F2;
 }
+.skills-name {
+  font-family: verdana;
+}
+
 .list-unstyled {
   text-align: center;
 }
 
-#portfolio {
-}
-=======
->>>>>>> 6264a0e0876a4e720431b2fb3c94850e8e28ed32
 .portfolio-box {
     display: block;
     position: relative;
     margin: 0 auto;
     max-width: 650px;
-<<<<<<< HEAD
-    border: 5px solid white;
-=======
->>>>>>> 6264a0e0876a4e720431b2fb3c94850e8e28ed32
+    border: 3px solid #C1C1C1;
 }
 
 .portfolio-box .portfolio-box-caption {
@@ -377,9 +366,8 @@ header .header-content .header-content-inner p {
 }
 
 .btn-default {
-    border-color: #fff;
-    color: #222;
-    background-color: #fff;
+    color: wte;
+    background-color: ;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -484,7 +472,6 @@ fieldset[disabled] .btn-primary.active {
 
 .btn {
     border: 0;
-    border-radius: 300px;
     text-transform: uppercase;
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     font-weight: 700;
@@ -515,42 +502,26 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #222;
+
 }
 
-<<<<<<< HEAD
-.social{
-  text-align: center;
-  border-color: F05F40;
-  font-family: papyrus;
+#contact {
+  padding-bottom: 0;
 }
-#myfooter{
-  padding-top: 10px;
-  padding-bottom: 10px;
-  background-color: #4A423F;
-  text-align: center;
-  color: #c1c1c1;
-  font-family: monospace;
+.find {
+  padding-bottom: 1em;
+  font-family: cursive;
+}
+.social {
+  padding-top: 5em;
+  padding-bottom: 0;
 }
 .btn-xl {
-    font-size: 35px;
-=======
-#myfooter{
-height: 4em;
+  font-size: 35px;
+  border-radius: 60px;
+}
+footer {
   background-color: #4A423F;
-  text-align: center;
-  padding-top: 1em;
-  color: white;
-  font-family: monospace;
-}
-.social{
-  text-align: center;
-  border-color: F05F40;
-  font-family: papyrus;
-}
-.btn-xl {
-    padding: 18px 28px;
-    font-size: 30px;
-    border-radius: 8px;
-    border-color: F05F40;
->>>>>>> 6264a0e0876a4e720431b2fb3c94850e8e28ed32
+  color: #C1C1C1;
+  padding: 1em;
 }
