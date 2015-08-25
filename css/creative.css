@@ -250,6 +250,7 @@ header .header-content .header-content-inner p {
       margin-left:50px;
       border-radius:50px;
     }
+
 }
 
 .section-heading {
@@ -287,8 +288,6 @@ header .header-content .header-content-inner p {
   text-align: center;
 }
 
-#portfolio {
-}
 .portfolio-box {
     display: block;
     position: relative;
@@ -504,19 +503,22 @@ body {
     webkit-tap-highlight-color: #222;
 }
 
+#myfooter{
+height: 4em;
+  background-color: #4A423F;
+  text-align: center;
+  padding-top: 1em;
+  color: white;
+  font-family: monospace;
+}
 .social{
   text-align: center;
   border-color: F05F40;
   font-family: papyrus;
 }
-#myfooter{
-  padding-top: 10px;
-  padding-bottom: 10px;
-  background-color: #4A423F;
-  text-align: center;
-  color: #c1c1c1;
-  font-family: monospace;
-}
 .btn-xl {
-    font-size: 35px;
+    padding: 18px 28px;
+    font-size: 30px;
+    border-radius: 8px;
+    border-color: F05F40;
 }
