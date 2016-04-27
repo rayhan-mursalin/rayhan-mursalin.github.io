@@ -254,6 +254,9 @@ header .header-content .header-content-inner p {
   header .header-icon {
     padding-top: 5em;
   }
+  .header-icon a img {
+    border-radius:5px;
+  }
 }
 
 .section-heading {
