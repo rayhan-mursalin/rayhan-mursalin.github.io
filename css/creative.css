@@ -95,7 +95,7 @@ aside {
 .navbar-brand {
   font-weight: 1000;
   color: #f05f40;
-  font-family: fantasy;
+  font-family: 'Bad Script', cursive;
 }
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
@@ -259,6 +259,10 @@ header .header-content .header-content-inner p {
   }
 }
 
+.icons {
+  color: white;
+  padding-left: 0.4em;
+}
 .section-heading {
     margin-top: 0;
 }
