@@ -175,6 +175,9 @@ aside {
     .navbar-default.affix .nav>li>a:focus:hover {
         color: #f05f40;
     }
+    .navbar>.container-fluid .navbar-brand {
+      margin-left: 0!important;
+    }
 }
 
 header {
