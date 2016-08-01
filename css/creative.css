@@ -246,7 +246,6 @@ header .header-content .header-content-inner p {
         max-width: 80%;
         font-size: 18px;
     }
-
     header .header-icon a {
       text-align: center;
       display:inline;
@@ -254,17 +253,21 @@ header .header-content .header-content-inner p {
       margin-left:50px;
       border-radius:50px;
     }
-  header .header-icon {
-    padding-top: 5em;
-  }
-  .header-icon a img {
-    border-radius:5px;
-  }
+
+    .header-icon a img {
+      border-radius:5px;
+    }
 }
 
+header .header-icon {
+  padding: 5em 0 0 0;
+}
 .icons {
   color: white;
-  padding-left: 0.4em;
+  padding-right: 0.4em;
+}
+.icons:last-child{
+  padding-right: 0;
 }
 .section-heading {
     margin-top: 0;
