@@ -47,8 +47,11 @@ h6 {
 
 p {
     margin-bottom: 20px;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.5;
+}
+li {
+    font-size: 16px;
 }
 
 .bg-primary {
@@ -219,6 +222,11 @@ header .header-content .header-content-inner p {
     color: #E0E9F2;
     font-style: italic;
 }
+@media(max-width:426px) {
+    .icons {
+      padding-right: 0.3em;
+    }
+}
 
 @media(min-width:768px) {
     header {
@@ -227,7 +235,7 @@ header .header-content .header-content-inner p {
 
     header .header-content {
         position: absolute;
-        top: 50%;
+        top: 60%;
         padding: 0 50px;
         -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
@@ -249,22 +257,23 @@ header .header-content .header-content-inner p {
     header .header-icon a {
       text-align: center;
       display:inline;
-      margin-right:50px;
-      margin-left:50px;
+      margin-right:0.5em;
+      margin-left:0.5em;
       border-radius:50px;
     }
-
     .header-icon a img {
       border-radius:5px;
+    }
+    .service-button {
+        padding-top: 10em!important;
     }
 }
 
 header .header-icon {
-  padding: 5em 0 0 0;
+  padding: 5em 0 0 ;
 }
 .icons {
   color: white;
-  padding-right: 0.4em;
 }
 .icons:last-child{
   padding-right: 0;
@@ -389,7 +398,6 @@ header .header-icon {
 
 .btn-default {
     color: wte;
-    background-color: ;
     text-align: center;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
@@ -530,7 +538,7 @@ body {
 }
 
 #contact {
-  padding-bottom: 0;
+  padding-bottom: 5em;
 }
 .find {
   padding-bottom: 1em;
@@ -545,7 +553,7 @@ body {
   border-radius: 60px;
 }
 footer {
-  background-color: #4A423F;
+  background-color: #4a3229;
   color: #C1C1C1;
   padding: 1em;
 }
