@@ -228,7 +228,7 @@ header .header-content .header-content-inner p {
     }
 }
 
-@media(min-width:768px) {
+@media(max-width:768px) {
     header {
         min-height: 100%;
     }
@@ -274,6 +274,7 @@ header .header-icon {
 }
 .icons {
   color: white;
+  padding-right: 1em;
 }
 .icons:last-child{
   padding-right: 0;
