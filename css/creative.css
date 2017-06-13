@@ -235,10 +235,12 @@ header .header-content .header-content-inner p {
 
     header .header-content {
         position: absolute;
-        top: 65%;
-        padding: 0 50px;
+        top: 55%;
+        padding: 0 1em;
         -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
         transform: translateY(-50%);
     }
 
@@ -257,12 +259,15 @@ header .header-content .header-content-inner p {
     header .header-icon a {
       text-align: center;
       display:inline;
-      margin-right:0.5em;
-      margin-left:0.5em;
+      /*margin-right:0.5em;
+      margin-left:0.5em;*/
       border-radius:50px;
     }
     .header-icon a img {
       border-radius:5px;
+    }
+    .subheader {
+        padding-top: 1em;
     }
     .service-button {
         padding-top: 10em!important;
@@ -270,11 +275,11 @@ header .header-content .header-content-inner p {
 }
 
 header .header-icon {
-  padding: 5em 0 0 ;
+  padding: 7em 0 0 0 ;
 }
 .icons {
   color: white;
-  padding-right: 1em;
+  padding-right: 0.4em;
 }
 .icons:last-child{
   padding-right: 0;
@@ -308,6 +313,7 @@ header .header-icon {
   text-align: center;
   font-size: x-large;
   color: black;
+  padding: 1em 0;
 }
 .skills-name {
   font-family: verdana;
@@ -383,7 +389,7 @@ header .header-icon {
 }
 
 .service-button {
-  padding-top: 20em;
+  padding-top: 10em;
 }
 .btn-lg {
   color: #F05F40;
@@ -557,4 +563,9 @@ footer {
   background-color: #4a3229;
   color: #C1C1C1;
   padding: 1em;
+}
+@media(min-width:1025px) {
+    .service-button {
+      padding-top: 20em;
+    }
 }
