@@ -186,6 +186,7 @@ aside {
 header {
     position: relative;
     width: 100%;
+    height: 100%;
     min-height: auto;
     text-align: center;
     color: #fff;
@@ -235,7 +236,7 @@ header .header-content .header-content-inner p {
 
     header .header-content {
         position: absolute;
-        top: 55%;
+        top: 50%;
         padding: 0 1em;
         -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
@@ -270,7 +271,7 @@ header .header-content .header-content-inner p {
         padding-top: 1em;
     }
     .service-button {
-        padding-top: 10em!important;
+        padding-top: 42em!important;
     }
 }
 
@@ -388,9 +389,6 @@ header .header-icon {
     margin: 0 auto 20px;
 }
 
-.service-button {
-  padding-top: 10em;
-}
 .btn-lg {
   color: #F05F40;
 }
