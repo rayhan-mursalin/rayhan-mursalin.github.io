@@ -562,8 +562,3 @@ footer {
   color: #C1C1C1;
   padding: 1em;
 }
-@media(min-width:1025px) {
-    .service-button {
-      padding-top: 20em;
-    }
-}
